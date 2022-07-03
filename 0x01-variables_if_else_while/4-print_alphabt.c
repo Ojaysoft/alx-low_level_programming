@@ -2,20 +2,19 @@
 #include <stdio.h>
 
 /**
- * main - prints all single digit numbers of base 10 starting from 0
- * followed by a new line
+ * main - prints the alphabet in lowercase, followed by a new line
  *
- * Return: 0 if success
+ * Return: Always 0
  */
 int main(void)
 {
-	char d = '0';
+	char ch;
 
-	while (d <= '9')
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-	putchar(d);
-	d++;
+	if (ch != 'q' && ch != 'e')
+	putchar(ch);
 	}
-	putchar('\n');
+	putchar(10);
 	return (0);
 }
