@@ -18,4 +18,5 @@ int main(void)
 	d++;
 	}
 	putchar('\n');
-	retuturn (0);
+	return (0);
+}
