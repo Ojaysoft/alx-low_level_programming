@@ -1,12 +1,5 @@
 #include "main.h"
 
-/*
- * File: 4-isalpha.c
- * Auth: Brennan D Baraban
- */
-
-#include "holberton.h"
-
 /**
  * _isalpha - Checks if a character is alphabetic.
  * @c: The character to be checked.
