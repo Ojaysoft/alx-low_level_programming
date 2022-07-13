@@ -5,7 +5,7 @@
  * @s: pointer for the string to be checked
  * Return: void
  */
-int _strlen(char *s)
+int size_t _strlen(const char *str);
 {
 	int i = 0;
 
